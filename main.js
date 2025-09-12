@@ -11,23 +11,3 @@
 /*
 Never use var. Preferable to use let
 */
-
-// let score = "33abc";
-// console.log(typeof score); //string
-// let ItsNumber = Number(score)
-// console.group( ItsNumber) // NaN
-
-// let score = null;
-// console.log(typeof score); //object
-// let ItsNumber = Number(score)
-// console.group(ItsNumber) //0
-
-// let score = true;
-// console.log(typeof score); //boolean
-// let ItsNumber = Number(score)
-// console.group(ItsNumber) //1
-
-let score = false;
-console.log(typeof score); //boolean
-let ItsNumber = Number(score)
-console.group(ItsNumber) //0
