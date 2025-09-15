@@ -39,7 +39,6 @@ console.log(access);            //granted access is renamed to access and hence 
 
 //Example in react while passing props using destructuring
 const navbar = ({company}) => {
-
 }
 navbar(company = "Google");
 
