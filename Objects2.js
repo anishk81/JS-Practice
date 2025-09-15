@@ -29,4 +29,18 @@ const UserDatabase = {
 //console.log(Object.keys(UserDatabase));                    //[ 'id', 'Name', 'grantedAccess' ]
 //console.log(Object.values(UserDatabase));                 //[ 'ak47', 'Anish Kothari', false ]
 //console.log(Object.entries(UserDatabase));                // Gives key and value pairs in nested array
-console.log(UserDatabase.hasOwnProperty("ak47"));           // To check if there is present in that key or no. [No values]
+//console.log(UserDatabase.hasOwnProperty("ak47"));           // To check if there is present in that key or no. [No values]
+
+
+//Rename keys/names present in the object --> Destructuring in JS
+const {grantedAccess : access} = UserDatabase;
+console.log(access);            //granted access is renamed to access and hence can be called now 
+
+
+//Example in react while passing props using destructuring
+const navbar = ({company}) => {
+
+}
+navbar(company = "Google");
+
+
