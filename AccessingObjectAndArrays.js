@@ -29,7 +29,7 @@ const data = {
   }
 };
 
-// console.log(data.meta.total); //To access the object inside the object
-// console.log(data.users[1]);  //To access the array inside the object
+console.log(data.meta.total); //To access the object inside the object
+console.log(data.users[1]);  //To access the array inside the object
 
 
